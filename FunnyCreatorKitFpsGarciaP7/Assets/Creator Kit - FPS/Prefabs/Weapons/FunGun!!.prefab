@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 521019951643201760}
   - component: {fileID: 4346231888284757310}
   m_Layer: 9
-  m_Name: GermOBlaster
+  m_Name: FunGun!!
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -48,10 +48,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   triggerType: 0
   weaponType: 0
-  fireRate: 1e-12
+  fireRate: 5
   reloadTime: 1.5
-  clipSize: 30
-  damage: 500
+  clipSize: 1
+  damage: 999999
   ammoType: 0
   projectilePrefab: {fileID: 0}
   projectileLaunchForce: 200
@@ -62,7 +62,7 @@ MonoBehaviour:
     screenShakeMultiplier: 1
   FireAnimationClip: {fileID: 7400006, guid: 36622a955330bc346a249a1e63e61d2a, type: 3}
   ReloadAnimationClip: {fileID: 7400008, guid: 36622a955330bc346a249a1e63e61d2a, type: 3}
-  FireAudioClip: {fileID: 0}
+  FireAudioClip: {fileID: 8300000, guid: 79c781879da4b6c4f8c7cd79fd034759, type: 3}
   ReloadAudioClip: {fileID: 8300000, guid: 53b8e7c6ac6cd6d49977438b25dacfc7, type: 3}
   PrefabRayTrail: {fileID: 1691346627199228128, guid: bc513dca9b359aa49aac8365c74ad13d,
     type: 3}
